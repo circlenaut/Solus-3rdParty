@@ -30,3 +30,26 @@ $ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/prateekmedia/S
 ```
 $ sudo eopkg bi --ignore-safety https://raw.githubusercontent.com/prateekmedia/Solus-3rdParty/main/graphics/magnus/pspec.xml && sudo eopkg it magnus*.eopkg && sudo rm magnus*.eopkg
 ```
+**For 1Password:**  
+```
+$ sudo eopkg bi --ignore-safety ./security/1password/pspec.xml && sudo eopkg it 1password*.eopkg && sudo rm 1password*.eopkg
+```
+releases: https://downloads.1password.com/linux/debian/pool/main/1/1password/1password-8.0.30.deb
+**For Everdo:**  
+```
+$ sudo eopkg bi --ignore-safety ./productivity/everdo/pspec.xml && sudo eopkg it everdo*.eopkg && sudo rm everdo*.eopkg
+```
+**For MineTime:**  
+```
+$ sudo eopkg bi --ignore-safety ./productivity/minetime/pspec.xml && sudo eopkg it minetime*.eopkg && sudo rm minetime*.eopkg
+```
+releases: https://github.com/marcoancona/MineTime/releases
+**For Microsoft Teams:**  
+```
+$ sudo eopkg bi --ignore-safety ./productivity/microsoft-teams/pspec.xml && sudo eopkg it microsoft-teams*.eopkg && sudo rm microsoft-teams*.eopkg
+```
+releases: https://aur.archlinux.org/packages/teams/
+**For p3xOnenote:**  
+```
+$ sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml && sudo eopkg it p3x-onenote*.eopkg && sudo rm p3x-onenote*.eopkg
+releases: https://github.com/patrikx3/onenote/releases

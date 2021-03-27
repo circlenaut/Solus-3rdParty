@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>p3x-onenote</Name>
+        <Homepage>https://corifeus.com/onenote/</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>Linux Electron Onenote - A Linux compatible version of OneNote</Summary>
+        <Description>With OneNote, users can create notes that can include text, pictures, tables, and drawings. Unlike a word processor, OneNote features a virtually unbounded document window, in which users can click anywhere on the canvas to create a new text box at that location. OneNote saves data automatically as the user makes edits to their file.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="a9ba42a44c3d6893a7de207df12acf80df400a6a" type="binary">https://github.com/patrikx3/onenote/releases/download/v2021.4.156/p3x-onenote_2021.4.156_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>p3x-onenote</Name>
+        <Icon>p3x-onenote</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>03-26-2021</Date>
+            <Version>2021.4.156</Version>
+            <Comment>Add p3x-onenote version 2021.4.156</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>
