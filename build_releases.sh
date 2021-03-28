@@ -21,3 +21,6 @@ sudo eopkg bi --ignore-safety ./productivity/microsoft-teams/pspec.xml && mv mic
 
 ## p3xOnenote:
 sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml && mv p3x-onenote*.eopkg ./releases/
+
+## Update file ownership
+sudo chown $USER: ./releases/*
