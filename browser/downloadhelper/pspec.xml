@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>Video DownloadHelper Companion App</Name>
+        <Homepage>https://www.downloadhelper.net/install-coapp/</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>Companion App to Video DownloadHelper</Summary>
+        <Description>Companion App for the Browser extension Video DownloadHelper to download videos from the Web</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="d55a2458f706bdcd73f69c294f86dd8e429d6819" type="binary">https://github.com/mi-g/vdhcoapp/releases/download/v1.6.1/net.downloadhelper.coapp-1.6.1-1_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>video-download-helper-companion</Name>
+        <Icon>video-download-helper-companion</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>04-01-2021</Date>
+            <Version>1.6.1</Version>
+            <Comment>Add Video Download Helper version 1.6.1</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>

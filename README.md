@@ -42,3 +42,7 @@ $ sudo eopkg bi --ignore-safety ./productivity/microsoft-teams/pspec.xml && sudo
 **For p3xOnenote:**  
 ```
 $ sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml && sudo eopkg it p3x-onenote*.eopkg && sudo rm p3x-onenote*.eopkg
+```
+**For Video DownloadHelper Companion App:**  
+```
+$ sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml && sudo eopkg it video-download-helper-companion*.eopkg && sudo rm video-download-helper-companion*.eopkg
