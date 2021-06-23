@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## Microsoft Visual Studio Code:
+sudo eopkg it ./releases/vscode-microsoft-latest.eopkg
+
 ## Microsoft Edge Dev:
 sudo eopkg it ./releases/microsoft-edge-dev-latest.eopkg
 

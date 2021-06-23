@@ -1,4 +1,5 @@
 # 3rdParty Packages for Solus
+The offical Solus 3rd-party repo is [here](https://getsol.us/articles/software/third-party/en/). Otherwise feel free to use the packages below.
 
 ## Disclaimer
 These packages are **not official**, they are neither supported nor endorsed by the official Solus devs. Do not ask for help in Solus's help forum, instead create an issue [here](https://github.com/circlenaut/Solus-3rdParty/issues).
@@ -50,3 +51,16 @@ $ sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml && sudo eopkg
 **For Lightworks:**  
 ```
 $ sudo eopkg bi --ignore-safety ./graphics/lightworks/pspec.xml && sudo && sudo eopkg it lightworks*.eopkg && sudo rm lightworks*.eopkg
+```
+## Obsolescence
+Note that the eopkg package system is being phased out and replaced by Solbuild:
+- https://www.reddit.com/r/SolusProject/comments/7trxu9/can_i_use_local_pspecxml_to_build_package/
+- https://www.reddit.com/r/SolusProject/comments/epu81o/building_an_eopkg/
+
+**New Build references:**  
+```
+- https://getsol.us/articles/packaging/
+- https://getsol.us/articles/packaging/building-a-package/en/
+- https://getsol.us/articles/packaging/local-repository/en/
+- https://getsol.us/articles/packaging/building-a-package/en/
+- https://www.ordinatechnic.com/distribution-specific-guides/Solus/building-a-package-on-solus-for-installation-by-eopkg-from-a-custom-local-repository

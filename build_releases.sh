@@ -1,5 +1,10 @@
 #!/bin/bash
 
+## Microsoft Visual Studio Code:
+sudo eopkg bi --ignore-safety ./productivity/visual-studio-code/pspec.xml \
+&& cp vscode-microsoft*.eopkg ./releases/vscode-microsoft-latest.eopkg \
+&& mv -f vscode-microsoft*.eopkg ./releases/
+
 ## Microsoft Edge Dev:
 sudo rm /usr/share/pixmaps/microsoft-edge-dev.png
 sudo eopkg bi --ignore-safety ./browser/microsoft-edge-dev/pspec.xml \
