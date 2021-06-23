@@ -42,9 +42,9 @@ sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml \
 && mv -f video-download-helper-companion*.eopkg ./releases/
 
 ## Lightworks:
-#sudo eopkg bi --ignore-safety ./graphics/lightworks/pspec.xml \
-#&& cp lightworks*.eopkg ./releases/lightworks-latest.eopkg \
-#&& mv -f lightworks*.eopkg ./releases/
+sudo eopkg bi --ignore-safety ./graphics/lightworks/pspec.xml \
+&& cp lightworks*.eopkg ./releases/lightworks-latest.eopkg \
+&& mv -f lightworks*.eopkg ./releases/
 
 ## Update file ownership
 sudo chown $USER: ./releases/*

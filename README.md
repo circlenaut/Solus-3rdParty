@@ -46,11 +46,7 @@ $ sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml && sudo eop
 **For Video DownloadHelper Companion App:**  
 ```
 $ sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml && sudo eopkg it video-download-helper-companion*.eopkg && sudo rm video-download-helper-companion*.eopkg
-
-
-
-Download All New Debs:
-
-Get checksum
-
-Repackage
+```
+**For Lightworks:**  
+```
+$ sudo eopkg bi --ignore-safety ./graphics/lightworks/pspec.xml && sudo && sudo eopkg it lightworks*.eopkg && sudo rm lightworks*.eopkg
