@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>p3x-onenote</Name>
+        <Name>P3X Onenote</Name>
         <Homepage>https://corifeus.com/onenote/</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
@@ -11,7 +11,7 @@
         <Summary>Linux Electron Onenote - A Linux compatible version of OneNote</Summary>
         <Description>With OneNote, users can create notes that can include text, pictures, tables, and drawings. Unlike a word processor, OneNote features a virtually unbounded document window, in which users can click anywhere on the canvas to create a new text box at that location. OneNote saves data automatically as the user makes edits to their file.</Description>
         <License>MIT</License>
-        <Archive sha1sum="a9ba42a44c3d6893a7de207df12acf80df400a6a" type="binary">https://github.com/patrikx3/onenote/releases/download/v2021.4.156/p3x-onenote_2021.4.156_amd64.deb</Archive>
+        <Archive sha1sum="f018ae2f5a755e961d0329dfdd33f8ffc6ed01ca" type="binary">https://github.com/patrikx3/onenote/releases/download/v2021.4.192/p3x-onenote_2021.4.192_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>06-22-2021</Date>
+            <Version>2021.4.192</Version>
+            <Comment>Add p3x-onenote version 2021.4.192 released on June 8th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="1">
             <Date>03-26-2021</Date>
             <Version>2021.4.156</Version>
-            <Comment>Add p3x-onenote version 2021.4.156</Comment>
+            <Comment>Add p3x-onenote version 2021.4.156 released on March 23 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

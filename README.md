@@ -31,9 +31,9 @@ $ sudo eopkg bi --ignore-safety ./security/1password/pspec.xml && sudo eopkg it 
 ```
 $ sudo eopkg bi --ignore-safety ./productivity/everdo/pspec.xml && sudo eopkg it everdo*.eopkg && sudo rm everdo*.eopkg
 ```
-**For MineTime:**  
+**For Morgen:**  
 ```
-$ sudo eopkg bi --ignore-safety ./productivity/minetime/pspec.xml && sudo eopkg it minetime*.eopkg && sudo rm minetime*.eopkg
+$ sudo eopkg bi --ignore-safety ./productivity/morgen/pspec.xml && sudo eopkg it morgen*.eopkg && sudo rm morgen*.eopkg
 ```
 **For Microsoft Teams:**  
 ```
@@ -46,3 +46,11 @@ $ sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml && sudo eop
 **For Video DownloadHelper Companion App:**  
 ```
 $ sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml && sudo eopkg it video-download-helper-companion*.eopkg && sudo rm video-download-helper-companion*.eopkg
+
+
+
+Download All New Debs:
+
+Get checksum
+
+Repackage

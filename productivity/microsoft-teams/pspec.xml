@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>microsoft-teams</Name>
+        <Name>Microsoft Teams</Name>
         <Homepage>https://www.microsoft.com/en-us/microsoft-teams/group-chat-software/</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
@@ -11,7 +11,7 @@
         <Summary>Microsoft Teams for Linux is your chat-centered workspace in Office 365</Summary>
         <Description>Microsoft Teams is cloud-based team collaboration software that is part of the Office 365 suite of applications. The core capabilities in Microsoft Teams include business messaging, calling, video meetings and file sharing.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="6e774b8551e2c51d75136d01c286f5e96a9e2d1b" type="binary">https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.4855_amd64.deb</Archive>
+        <Archive sha1sum="143708eabd38793601f96dace3a7fc9b790ed913" type="binary">https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.7556_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>06-22-2021</Date>
+            <Version>1.4.00.7556</Version>
+            <Comment>Add microsoft-teams version 1.4.00.7556 released on March 29th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="1">
             <Date>03-26-2021</Date>
             <Version>1.4.00.4855</Version>
-            <Comment>Add microsoft-teams version 1.4.00.4855</Comment>
+            <Comment>Add microsoft-teams version 1.4.00.4855 released on March 8th 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

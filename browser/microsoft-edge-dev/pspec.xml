@@ -5,13 +5,13 @@
         <Name>Microsoft Edge (dev)</Name>
         <Homepage>https://www.microsoftedgeinsider.com/en-us/download</Homepage>
         <Packager>
-            <Name>Prateek SU</Name>
-            <Email>prateekmedia@github.com</Email>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
         </Packager>
         <Summary>The web browser from Microsoft</Summary>
         <Description>Microsoft Edge is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="048ffe19582eebdceae3e7697f978039836d974e" type="binary">https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_91.0.831.1-1_amd64.deb</Archive>
+        <Archive sha1sum="6bf095a4269729064a9cf2dda19aab59e7e2421c" type="binary">https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_93.0.916.1-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>06-22-2021</Date>
+            <Version>93.0.916.1</Version>
+            <Comment>Update Microsoft Edge Dev version 93.0.916.1 released on June 15th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="3">
             <Date>03-26-2021</Date>
             <Version>91.0.831.1</Version>
-            <Comment>Update Microsoft Edge Dev version 91.0.831.1</Comment>
+            <Comment>Update Microsoft Edge Dev version 91.0.831.1 released on March 23 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

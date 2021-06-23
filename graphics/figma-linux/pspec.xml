@@ -5,13 +5,13 @@
         <Name>Figma Linux</Name>
         <Homepage>https://github.com/Figma-Linux/figma-linux</Homepage>
         <Packager>
-            <Name>Prateek SU</Name>
-            <Email>prateekmedia@github.com</Email>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
         </Packager>
         <Summary>Unofficial Figma desktop client for Linux</Summary>
         <Description>The collaborative interface design tool. Unofficial Figma desktop client for Linux</Description>
         <License>MIT</License>
-        <Archive sha1sum="738d33b87a012ebd916f556a47ec7e57cb02c6a4" type="binary">https://github.com/Figma-Linux/figma-linux/releases/download/v0.7.1/figma-linux_0.7.1_amd64.deb</Archive>
+        <Archive sha1sum="12afbf1ddbc9bd4bb9b9248d4524a58fa851e7ae" type="binary">https://github.com/Figma-Linux/figma-linux/releases/download/v0.7.4/figma-linux_0.7.4_linux_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>06-22-2021</Date>
+            <Version>0.7.4</Version>
+            <Comment>Update Figma Linux to version 0.7.4 released on May 28th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="3">
-            <Date>24-01-2021</Date>
+            <Date>03-26-2021</Date>
             <Version>0.7.1</Version>
-            <Comment>Update Figma Linux to version 0.7.1</Comment>
+            <Comment>Update Figma Linux to version 0.7.1 released on January 11th 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

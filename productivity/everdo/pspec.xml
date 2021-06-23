@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>everdo</Name>
+        <Name>Everdo</Name>
         <Homepage>https://everdo.net/</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
@@ -11,7 +11,7 @@
         <Summary>A powerful cross-platform GTD app with focus on privacy.</Summary>
         <Description>We truly want to create a better product by focusing on user experience, privacy and good design. We want Everdo to be a tool to simplify your life, while keeping you in control. The app that you can finally stick to and hopefully the last GTD app you will ever need.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="ba1ada3d52b92b812341621a23155919fd15a65b" type="binary">https://d11l8siwmn8w36.cloudfront.net/1.5.8/everdo_1.5.8_amd64.deb</Archive>
+        <Archive sha1sum="41764ae0598f75dd5118ce01e4ae044bec7f24e9" type="binary">https://d11l8siwmn8w36.cloudfront.net/1.5.14/everdo_1.5.14_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>06-22-2021</Date>
+            <Version>1.5.14</Version>
+            <Comment>Add Everdo version 1.5.14 released on May 17th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="1">
             <Date>03-26-2021</Date>
             <Version>1.5.8</Version>
-            <Comment>Add Everdo version 1.5.8</Comment>
+            <Comment>Add Everdo version 1.5.8 released on March 22nd 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

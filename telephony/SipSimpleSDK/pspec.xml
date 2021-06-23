@@ -2,7 +2,7 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>1Password</Name>
+        <Name>1password</Name>
         <Homepage>https://1password.com/downloads/linux/</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
@@ -11,7 +11,7 @@
         <Summary>A secure rosss-platform password mananger.</Summary>
         <Description>1Password is a cross-platform password mananger You only ever need to remember one password. All your other passwords are protected by your Master Password, which only you know.</Description>
         <License>MIT</License>
-        <Archive sha1sum="a825edb2e5729d1e668076e8a2bbc039ddf53858" type="binary">https://downloads.1password.com/linux/debian/amd64/beta/1password-latest.deb</Archive>
+        <Archive sha1sum="0c4923a78fa3bab5709986274ae2b5ba7c967c29" type="binary">https://downloads.1password.com/linux/debian/pool/main/1/1password/1password-8.0.30.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,17 +32,10 @@
     </Package>
 
     <History>
-        <Update release="2">
-            <Date>06-22-2021</Date>
-            <Version>8.1.0.60</Version>
-            <Comment>Add 1password version 8.1.0-60 released on June 21st 2021</Comment>
-            <Name>Phillip Strefling</Name>
-            <Email>phillip@strefling.pro</Email>
-        </Update>
         <Update release="1">
             <Date>03-26-2021</Date>
             <Version>8.0.30</Version>
-            <Comment>Add 1password version 8.0.30 released on March 22nd 2021</Comment>
+            <Comment>Add 1password version 8.0.30</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

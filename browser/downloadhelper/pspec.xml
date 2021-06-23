@@ -11,7 +11,7 @@
         <Summary>Companion App to Video DownloadHelper</Summary>
         <Description>Companion App for the Browser extension Video DownloadHelper to download videos from the Web</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="d55a2458f706bdcd73f69c294f86dd8e429d6819" type="binary">https://github.com/mi-g/vdhcoapp/releases/download/v1.6.1/net.downloadhelper.coapp-1.6.1-1_amd64.deb</Archive>
+        <Archive sha1sum="a68f19ef9a2321872dc43c58a466b4ac40f07e4e" type="binary">https://github.com/mi-g/vdhcoapp/releases/download/v1.6.3/net.downloadhelper.coapp-1.6.3-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,17 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>06-22-2021</Date>
+            <Version>1.6.3</Version>
+            <Comment>Add Video Download Helper version 1.6.3 released on May 25th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="1">
-            <Date>04-01-2021</Date>
+            <Date>03-26-2021</Date>
             <Version>1.6.1</Version>
-            <Comment>Add Video Download Helper version 1.6.1</Comment>
+            <Comment>Add Video Download Helper version 1.6.1 released on April 1st 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

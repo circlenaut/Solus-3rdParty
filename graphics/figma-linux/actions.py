@@ -12,7 +12,7 @@ Suffix = "-1"
 
 def setup():
     shelltools.system("pwd")
-    shelltools.system("ar xf figma-linux_%s_amd64.deb" % (get.srcVERSION()))
+    shelltools.system("ar xf figma-linux_%s_linux_amd64.deb" % (get.srcVERSION()))
     shelltools.system("tar xvf data.tar.xz")
 
 def install():

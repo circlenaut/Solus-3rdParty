@@ -2,16 +2,16 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>MineTime</Name>
-        <Homepage>https://minetime.ai/</Homepage>
+        <Name>Morgen</Name>
+        <Homepage>https://morgen.so/</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Packager>
         <Summary>All calendars in one place, without privacy compromises.</Summary>
-        <Description>If you use your calendar every day, multiple times a day, you deserve better. MineTime brings all your calendars together, whether you are on Windows, Mac or Linux, with a uniquely simple interface.</Description>
+        <Description>Morgen beautifully runs on all desktop platforms, integrates with all calendars, and helps you schedule time for your tasks.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="dc72b3f256d09177dc9f8ff4ca3f15a8ec668986" type="binary">https://github.com/marcoancona/MineTime/releases/download/v1.9.5/MineTime_1.9.5_amd64.deb</Archive>
+        <Archive sha1sum="760b5d461abca3defbce591153de89f3275da754" type="binary">https://download.todesktop.com/210203cqcj00tw1/morgen-2.1.5.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -20,8 +20,8 @@
     </Source>
 
     <Package>
-        <Name>minetime</Name>
-        <Icon>minetime</Icon>
+        <Name>morgen</Name>
+        <Icon>morgen</Icon>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
@@ -33,9 +33,9 @@
 
     <History>
         <Update release="1">
-            <Date>03-26-2021</Date>
-            <Version>1.9.5</Version>
-            <Comment>Add minetime version 1.9.5 released on February 5th 2021 (last release, replaced by Morgen.so)</Comment>
+            <Date>06-22-2021</Date>
+            <Version>2.1.5</Version>
+            <Comment>Add Morgen version 2.1.5 released on June 22nd 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>

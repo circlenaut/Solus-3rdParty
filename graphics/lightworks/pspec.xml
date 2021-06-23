@@ -2,16 +2,16 @@
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>MineTime</Name>
-        <Homepage>https://minetime.ai/</Homepage>
+        <Name>Lightworks Linux</Name>
+        <Homepage>https://www.lwks.com</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Packager>
-        <Summary>All calendars in one place, without privacy compromises.</Summary>
-        <Description>If you use your calendar every day, multiple times a day, you deserve better. MineTime brings all your calendars together, whether you are on Windows, Mac or Linux, with a uniquely simple interface.</Description>
+        <Summary>Lightworks is a non-linear editing system for editing and mastering digital video.</Summary>
+        <Description>What if you had the power of an Academy and Emmy award-winning video editing software in a simple to use package to create your own video masterpieces? Be amazing right? Well with Lightworks you can edit like a pro and unleash your creative potential for all to see.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="dc72b3f256d09177dc9f8ff4ca3f15a8ec668986" type="binary">https://github.com/marcoancona/MineTime/releases/download/v1.9.5/MineTime_1.9.5_amd64.deb</Archive>
+        <Archive sha1sum="8bf62385a62f4a881d45315086adb834bad2d644" type="binary">https://cdn.lwks.com/releases/2021.2.1/lightworks_2021.2_r128456.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -20,8 +20,8 @@
     </Source>
 
     <Package>
-        <Name>minetime</Name>
-        <Icon>minetime</Icon>
+        <Name>lightworks</Name>
+        <Icon>lightworks</Icon>
         <Files>
             <Path fileType="*">/</Path>
         </Files>
@@ -33,9 +33,9 @@
 
     <History>
         <Update release="1">
-            <Date>03-26-2021</Date>
-            <Version>1.9.5</Version>
-            <Comment>Add minetime version 1.9.5 released on February 5th 2021 (last release, replaced by Morgen.so)</Comment>
+            <Date>05-27-2021</Date>
+            <Version>128456</Version>
+            <Comment>Add Lightworks version 2021.2_r128456 released on May 27th 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>
         </Update>
