@@ -1,5 +1,11 @@
 #!/bin/bash
 
+RELEASE_DIR="./releases"
+if ! [ -d "$RELEASE_DIR" ]; then
+    echo "Creating directory '${RELEASE_DIR}' ..."
+    mkdir $RELEASE_DIR
+fi
+
 ## Microsoft Visual Studio Code:
 sudo eopkg bi --ignore-safety ./productivity/visual-studio-code/pspec.xml \
 && cp vscode-microsoft*.eopkg ./releases/vscode-microsoft-latest.eopkg \
