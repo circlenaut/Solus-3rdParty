@@ -1,8 +1,9 @@
+
 <?xml version="1.0" ?>
 <!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
 <PISI>
     <Source>
-        <Name>Visual Studio Code</Name>
+        <Name>Visual-Studio-Code</Name>
         <Homepage>https://code.visualstudio.com</Homepage>
         <Packager>
             <Name>Phillip Strefling</Name>
@@ -11,7 +12,7 @@
         <Summary>Visual Studio Code is a source-code editor made by Microsoft</Summary>
         <Description>Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging. First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="6f8e4a381ff6e7d4a6612a4e339c38cdcf2869c8" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.57.1-1623937013_amd64.deb</Archive>
+        <Archive sha1sum="f1a387f989c8656a494c9dc566511bae34e8f622" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.59.0-1628120042_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +33,16 @@
     </Package>
 
     <History>
+	<Update release="2">
+            <Date>08-08-2021</Date>
+            <Version>1.59.0</Version>
+            <Comment>Add Microsoft Visual Studio Code version 1.59.0 released on August 5th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="1">
             <Date>06-23-2021</Date>
             <Version>1.57.1</Version>
-            <Tag>3</Tag>
             <Comment>Add Microsoft Visual Studio Code version 1.57.1 released on June 17th 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>

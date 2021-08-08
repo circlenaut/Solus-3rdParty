@@ -16,6 +16,10 @@ $ sudo eopkg it ./your-program-name.eopkg
 ### Building from Source
 Clone this repo and execute the following
 
+**For Microsoft Visual Studio Code:**
+```
+$ sudo eopkg bi --ignore-safety ./productivity/visual-studio-code/pspec.xml && sudo eopkg it vscode-microsoft*.eopkg && sudo rm vscode-microsoft*.eopkg
+```
 **For Microsoft Edge Dev:**  
 ```
 $ sudo eopkg bi --ignore-safety ./browser/microsoft-edge-dev/pspec.xml && sudo eopkg it microsoft-edge-dev*.eopkg && sudo rm microsoft-edge-dev*.eopkg
