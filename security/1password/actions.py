@@ -13,6 +13,7 @@ Suffix = "-1"
 def setup():
     shelltools.system("pwd")
     shelltools.system("ar xf 1password-latest.deb")
+#    shelltools.system("ar xf 1password-%s_amd64.deb" % (get.srcVERSION()))
     shelltools.system("tar xvf data.tar.xz")
 
 def install():
