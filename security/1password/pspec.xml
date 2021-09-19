@@ -11,7 +11,7 @@
         <Summary>A secure rosss-platform password mananger.</Summary>
         <Description>1Password is a cross-platform password mananger You only ever need to remember one password. All your other passwords are protected by your Master Password, which only you know.</Description>
         <License>MIT</License>
-        <Archive sha1sum="cc7e291db61be98ddd39f02aa90c8eee79804a35" type="binary">https://downloads.1password.com/linux/debian/amd64/beta/1password-latest.deb</Archive>
+        <Archive sha1sum="cc7e291db61be98ddd39f02aa90c8eee79804a35" type="binary">https://github.com/circlenaut/solus-3rdparty/blob/main/sources/1password/1password-8.2.2-39</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
