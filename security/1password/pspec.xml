@@ -11,7 +11,7 @@
         <Summary>A secure rosss-platform password mananger.</Summary>
         <Description>1Password is a cross-platform password mananger You only ever need to remember one password. All your other passwords are protected by your Master Password, which only you know.</Description>
         <License>MIT</License>
-        <Archive sha1sum="a825edb2e5729d1e668076e8a2bbc039ddf53858" type="binary">https://downloads.1password.com/linux/debian/amd64/beta/1password-latest.deb</Archive>
+        <Archive sha1sum="cc7e291db61be98ddd39f02aa90c8eee79804a35" type="binary">https://downloads.1password.com/linux/debian/amd64/beta/1password-latest.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,6 +32,13 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>09-19-2021</Date>
+            <Version>8.2.2.39</Version>
+            <Comment>Add 1password version 8.2.2-39 released on September 13th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="2">
             <Date>06-22-2021</Date>
             <Version>8.1.0.60</Version>
