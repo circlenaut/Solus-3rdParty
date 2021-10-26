@@ -57,5 +57,10 @@ sudo eopkg bi --ignore-safety ./graphics/lightworks/pspec.xml \
 && cp lightworks*.eopkg ./releases/lightworks-latest.eopkg \
 && mv -f lightworks*.eopkg ./releases/
 
+## FreeOffice:
+sudo eopkg bi --ignore-safety ./productivity/freeoffice/pspec.xml \
+&& cp freeoffice*.eopkg ./releases/freeoffice-latest.eopkg \
+&& mv -f freeoffice*.eopkg ./releases/
+
 ## Update file ownership
 sudo chown $USER: ./releases/*

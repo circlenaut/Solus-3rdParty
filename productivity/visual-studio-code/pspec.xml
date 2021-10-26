@@ -11,7 +11,7 @@
         <Summary>Visual Studio Code is a source-code editor made by Microsoft</Summary>
         <Description>Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging. First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="423d29f54dcf9ef2061a5d551257db04c1770643" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.60.1-1631294805_amd64.deb</Archive>
+        <Archive sha1sum="d239d0595853d51a54515f62a1d5f0146e26524b" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.60.2-1632313585_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,10 +32,18 @@
     </Package>
 
     <History>
+	<Update release="5">
+            <Date>10-04-2021</Date>
+            <Version>1.60.2</Version>
+            <SubVersion>1632313585</SubVersion>
+            <Comment>Add Microsoft Visual Studio Code version 1.60.2 released on September 22nd 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
 	<Update release="4">
             <Date>09-19-2021</Date>
             <Version>1.60.1</Version>
-            <SubVersion>1629375198</SubVersion>
+            <SubVersion>1631294805</SubVersion>
             <Comment>Add Microsoft Visual Studio Code version 1.60.1 released on September 14th 2021</Comment>
             <Name>Phillip Strefling</Name>
             <Email>phillip@strefling.pro</Email>

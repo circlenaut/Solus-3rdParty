@@ -28,4 +28,7 @@ sudo eopkg it ./releases/p3x-onenote-latest.eopkg
 sudo eopkg it ./releases/video-download-helper-companion-latest.eopkg
 
 ## Lightworks:
-sudo eopkg it ./releases/lightworks-latest.eopkgsudo eopkg it ./releases/vscode-microsoft-latest.eopkg
+sudo eopkg it ./releases/lightworks-latest.eopkg
+
+## FreeOffice:
+sudo eopkg it ./releases/freeoffice-latest.eopkg

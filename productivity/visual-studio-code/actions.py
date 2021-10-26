@@ -45,7 +45,7 @@ IgnoreAutodep = True
 Suffix = "-1"
 
 # Change with each release
-SUBVERSION = 1631294805
+SUBVERSION = 1632313585
 
 def test_cmd(cmd):
     xml_path = _os.path.join(cmd, 'metadata.xml')

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>FreeOffice</Name>
+        <Homepage>https://www.freeoffice.com</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>An Office Suite.</Summary>
+        <Description>FreeOffice 2021 is a full-featured Office suite with word processing, spreadsheet and presentation software. It is seamlessly compatible with Microsoft Office and available for Windows, Mac and Linux. Best of all, it's completely free for both personal and business use.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="46c1e73b7066247c3c08708960d6ab52df0bf6f1" type="binary">https://www.softmaker.net/down/softmaker-freeoffice-2021_1036-01_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>freeoffice</Name>
+        <Icon>freeoffice</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>10-26-2021</Date>
+            <Version>1036</Version>
+            <Comment>Add FreeOffice 2021 version 1036 released on October 19th, 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>
