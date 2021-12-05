@@ -15,6 +15,9 @@ sudo eopkg it ./releases/1password-latest.eopkg
 ## Everdo:
 sudo eopkg it ./releases/everdo-latest.eopkg
 
+## NordVPN:
+sudo eopkg it ./releases/nordvpn-latest.eopkg
+
 ## Morgen:
 sudo eopkg it ./releases/morgen-latest.eopkg
 

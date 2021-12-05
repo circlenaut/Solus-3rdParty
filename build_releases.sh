@@ -32,6 +32,11 @@ sudo eopkg bi --ignore-safety ./productivity/everdo/pspec.xml \
 && cp everdo*.eopkg ./releases/everdo-latest.eopkg \
 && mv -f everdo*.eopkg ./releases/
 
+## NordVPN:
+sudo eopkg bi --ignore-safety ./security/nordvpn/pspec.xml \
+&& cp nordvpn*.eopkg ./releases/nordvpn-latest.eopkg \
+&& mv -f nordvpn*.eopkg ./releases/
+
 ## Morgen:
 sudo eopkg bi --ignore-safety ./productivity/morgen/pspec.xml \
 && cp morgen*.eopkg ./releases/morgen-latest.eopkg \

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>NordVPN</Name>
+        <Homepage>https://nordvpn.com/</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>NordVPN is a VPN service with applications for Windows, macOS, Linux, Android, iOS, and Android TV.</Summary>
+        <Description>A good VPN service provides you a secure, encrypted tunnel for online traffic to flow. Nobody can see through the tunnel, get their hands on your online data, or find your real IP address and location. NordVPN is the best VPN if you’re looking for peace of mind when on public Wi-Fi. Securely access personal information or work files, encrypt your internet connection, and keep your browsing history and online identity private.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="35b4c608cebe863359c0b771d5245ed12b880a4c" type="binary">https://repo.nordvpn.com/deb/nordvpn/debian/pool/main/nordvpn_3.12.1-1_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>nordvpn</Name>
+        <Icon>nordvpn</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>12-05-2021</Date>
+            <Version>3.12.1</Version>
+            <Comment>Add NordVPN version 3.12.1 released on November 18th 2021</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>
