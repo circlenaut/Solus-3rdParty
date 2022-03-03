@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>DCV-NICE</Name>
+        <Homepage>https://aws.amazon.com/hpc/dcv/</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>Deliver high-performance remote desktop and application streaming</Summary>
+        <Description>NICE DCV is a high-performance remote display protocol that provides customers with a secure way to deliver remote desktops and application streaming from any cloud or data center to any device, over varying network conditions. With NICE DCV and Amazon EC2, customers can run graphics-intensive applications remotely on EC2 instances, and stream their user interface to simpler client machines, eliminating the need for expensive dedicated workstations. Customers across a broad range of HPC workloads use NICE DCV for their remote visualization requirements. The NICE DCV streaming protocol is also utilized by popular services, like Amazon Appstream 2.0, AWS Nimble Studio, and AWS RoboMaker.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="6baf7c542bad5287095a0b46a6be94a8ca8564f9" type="binary">https://d1uj6qtbmh3dt5.cloudfront.net/2022.0/Clients/nice-dcv-viewer_2022.0.3929-1_amd64.ubuntu2004.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>dcv-nice</Name>
+        <Icon>dcv-nice</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libpcre3</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>03-03-2022</Date>
+            <Version>3929</Version>
+            <Comment>Add DCV-NICE version 2022.0-3929</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>

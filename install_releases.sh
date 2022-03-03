@@ -27,6 +27,9 @@ sudo eopkg it ./releases/microsoft-teams-latest.eopkg
 ## p3xOnenote:
 sudo eopkg it ./releases/p3x-onenote-latest.eopkg
 
+## DCV NICE:
+sudo eopkg it ./releases/dcv-nice.eopkg
+
 ## Download Helper:
 sudo eopkg it ./releases/video-download-helper-companion-latest.eopkg
 

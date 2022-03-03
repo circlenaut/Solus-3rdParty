@@ -52,6 +52,11 @@ sudo eopkg bi --ignore-safety ./productivity/p3x-onenote/pspec.xml \
 && cp p3x-onenote*.eopkg ./releases/p3x-onenote-latest.eopkg \
 && mv -f p3x-onenote*.eopkg ./releases/
 
+## DCV NICE:
+sudo eopkg bi --ignore-safety ./productivity/dcv-nice/pspec.xml \
+&& cp dcv-nice*.eopkg ./releases/dcv-nice.eopkg \
+&& mv -f dcv-nice*.eopkg ./releases/
+
 ## Download Helper:
 sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml \
 && cp video-download-helper-companion*.eopkg ./releases/video-download-helper-companion-latest.eopkg \
