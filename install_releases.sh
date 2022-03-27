@@ -30,6 +30,9 @@ sudo eopkg it ./releases/p3x-onenote-latest.eopkg
 ## DCV NICE:
 sudo eopkg it ./releases/dcv-nice.eopkg
 
+## Inspect Dev:
+sudo eopkg it ./releases/inspect.eopkg
+
 ## Download Helper:
 sudo eopkg it ./releases/video-download-helper-companion-latest.eopkg
 

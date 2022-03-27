@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>Inspect Dev</Name>
+        <Homepage>https://inspect.dev</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>Simplify mobile web develoment with Inspect</Summary>
+        <Description>Inspect is a new developer tool that enables you to inspect and debug your web apps and websites on iOS from macOS, Windows and Linux.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="a0bdac990a294e363c6a4d2c610d0ce2dacb41a1" type="binary">https://github.com/inspectdev/inspect-release/releases/download/v0.8.0/Inspect-0.8.0-linux-amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>inspect-dev</Name>
+        <Icon>inspect-app</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>libpcre3</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>03-27-2022</Date>
+            <Version>0.8.0</Version>
+            <Comment>Add Inspect Dev version 0.8.0</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>

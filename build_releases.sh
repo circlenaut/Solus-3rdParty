@@ -57,6 +57,11 @@ sudo eopkg bi --ignore-safety ./productivity/dcv-nice/pspec.xml \
 && cp dcv-nice*.eopkg ./releases/dcv-nice.eopkg \
 && mv -f dcv-nice*.eopkg ./releases/
 
+## Inspect Dev:
+sudo eopkg bi --ignore-safety ./productivity/inspect/pspec.xml \
+&& cp inspect*.eopkg ./releases/inspect.eopkg \
+&& mv -f inspect*.eopkg ./releases/
+
 ## Download Helper:
 sudo eopkg bi --ignore-safety ./browser/downloadhelper/pspec.xml \
 && cp video-download-helper-companion*.eopkg ./releases/video-download-helper-companion-latest.eopkg \
