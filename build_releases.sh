@@ -77,5 +77,10 @@ sudo eopkg bi --ignore-safety ./productivity/freeoffice/pspec.xml \
 && cp freeoffice*.eopkg ./releases/freeoffice-latest.eopkg \
 && mv -f freeoffice*.eopkg ./releases/
 
+## Sublime Text 4
+sudo eopkg bi --ignore-safety ./productivity/sublime-text-4/pspec.xml \
+&& cp sublime-text-4*.eopkg ./releases/sublime-text-4-latest.eopkg \
+&& mv -f sublime-text-4*.eopkg ./releases/
+
 ## Update file ownership
 sudo chown $USER: ./releases/*

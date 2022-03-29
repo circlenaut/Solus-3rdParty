@@ -41,3 +41,6 @@ sudo eopkg it ./releases/lightworks-latest.eopkg
 
 ## FreeOffice:
 sudo eopkg it ./releases/freeoffice-latest.eopkg
+
+## Sublime Text 4:
+sudo eopkg it ./releases/sublime-text-4-latest.eopkg
