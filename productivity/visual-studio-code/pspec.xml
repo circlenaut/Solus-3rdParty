@@ -11,7 +11,7 @@
         <Summary>Visual Studio Code is a source-code editor made by Microsoft</Summary>
         <Description>Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging. First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="49183d50bb3ae855bbf361ea7e6eca9c3779256b" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.67.2-1652812855_amd64.deb</Archive>
+        <Archive sha1sum="240ec9a55df5aaf45c2b5cc443e85a48b67988c0" type="binary">https://packages.microsoft.com/repos/code/pool/main/c/code/code_1.68.1-1655263094_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,6 +32,14 @@
     </Package>
 
     <History>
+    <Update release="9">
+        <Date>06-23-2022</Date>
+        <Version>1.68.1</Version>
+        <SubVersion>1655263094</SubVersion>
+        <Comment>Add Microsoft Visual Studio Code version 1.68.1 released on June 15th 2022</Comment>
+        <Name>Phillip Strefling</Name>
+        <Email>phillip@strefling.pro</Email>
+    </Update>
 	<Update release="8">
         <Date>05-20-2022</Date>
         <Version>1.67.2</Version>
