@@ -11,7 +11,7 @@
         <Summary>A powerful cross-platform GTD app with focus on privacy.</Summary>
         <Description>We truly want to create a better product by focusing on user experience, privacy and good design. We want Everdo to be a tool to simplify your life, while keeping you in control. The app that you can finally stick to and hopefully the last GTD app you will ever need.</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="41764ae0598f75dd5118ce01e4ae044bec7f24e9" type="binary">https://d11l8siwmn8w36.cloudfront.net/1.5.14/everdo_1.5.14_amd64.deb</Archive>
+        <Archive sha1sum="395ac82a2eba343a9c2848a5efc49d0676337221" type="binary">https://d11l8siwmn8w36.cloudfront.net/1.8.2/everdo_1.8.2_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,6 +32,13 @@
     </Package>
 
     <History>
+        <Update release="3">
+            <Date>09-26-2022</Date>
+            <Version>1.8.2</Version>
+            <Comment>Add Everdo version 1.8.2</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="2">
             <Date>06-22-2021</Date>
             <Version>1.5.14</Version>

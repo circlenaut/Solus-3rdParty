@@ -6,6 +6,9 @@ sudo eopkg it ./releases/vscode-microsoft-latest.eopkg
 ## Microsoft Edge Dev:
 sudo eopkg it ./releases/microsoft-edge-dev-latest.eopkg
 
+## Plastic SCM:
+sudo eopkg it ./releases/plastic-scm-latest.eopkg
+
 ## Figma Linux:
 sudo eopkg it ./releases/figma-linux-latest.eopkg
 

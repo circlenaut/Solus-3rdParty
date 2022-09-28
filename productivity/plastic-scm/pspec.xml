@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>Plastic SCM</Name>
+        <Homepage>https://www.plasticscm.com/</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>Version Control and Source Code Management Tool</Summary>
+        <Description>Unity Plastic SCM is a version control and source code management tool built to improve team collaboration and scalability with any engine. It offers optimized workflows for artists and programmers, as well as superior speed working with large files and binaries.</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="a6646bc7437a9d4f451ad8465e53eb11ab378dea" type="binary">https://s3.eu-west-2.amazonaws.com/plastic-releases/linux-packages/backup-stable-debian-but-broken/amd64/plasticscm-complete_11.0.16.6953_amd64.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>plastic-scm</Name>
+        <Icon>plastic-scm</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>09-20-2022</Date>
+            <Version>11.0.16.6953</Version>
+            <Comment>Add Plastic SCM version 11.0.16.6953 released on ? 2022</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>

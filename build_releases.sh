@@ -17,6 +17,11 @@ sudo eopkg bi --ignore-safety ./browser/microsoft-edge-dev/pspec.xml \
 && cp microsoft-edge-dev*.eopkg ./releases/microsoft-edge-dev-latest.eopkg \
 && mv -f microsoft-edge-dev*.eopkg ./releases/
 
+## Plastic SCM:
+sudo eopkg bi --ignore-safety ./productivity/plastic-scm/pspec.xml \
+&& cp plastic-scm*.eopkg ./releases/plastic-scm-latest.eopkg \
+&& mv -f plastic-scm*.eopkg ./releases/
+
 ## Figma Linux:
 sudo eopkg bi --ignore-safety ./graphics/figma-linux/pspec.xml \
 && cp figma-linux*.eopkg ./releases/figma-linux-latest.eopkg \
