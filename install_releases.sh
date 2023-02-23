@@ -47,3 +47,6 @@ sudo eopkg it ./releases/freeoffice-latest.eopkg
 
 ## Sublime Text 4:
 sudo eopkg it ./releases/sublime-text-4-latest.eopkg
+
+## Discord:
+sudo eopkg it ./releases/discord-latest.eopkg

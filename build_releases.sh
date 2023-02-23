@@ -87,5 +87,11 @@ sudo eopkg bi --ignore-safety ./productivity/sublime-text-4/pspec.xml \
 && cp sublime-text-4*.eopkg ./releases/sublime-text-4-latest.eopkg \
 && mv -f sublime-text-4*.eopkg ./releases/
 
+## Discord
+sudo eopkg bi --ignore-safety ./communication/discord/pspec.xml \
+&& cp discord*.eopkg ./releases/discord-latest.eopkg \
+&& mv -f discord*.eopkg ./releases/
+
+
 ## Update file ownership
 sudo chown $USER: ./releases/*

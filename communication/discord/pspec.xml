@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "https://getsol.us/standard/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>Discord</Name>
+        <Homepage>https://discord.com//</Homepage>
+        <Packager>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Packager>
+        <Summary>A VoIP and instant messaging social platform. </Summary>
+        <Description>Discord is a VoIP and instant messaging social platform. Users have the ability to communicate with voice calls, video calls, text messaging, media and files in private chats or as part of communities called "servers".</Description>
+        <License>Proprietary</License>
+        <Archive sha1sum="5b58a46f656e47f4515b8407f114ff0b1a9088aa" type="binary">https://dl.discordapp.net/apps/linux/0.0.25/discord-0.0.25.deb</Archive>
+        <BuildDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>binutils</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>discord</Name>
+        <Icon>discord</Icon>
+        <Files>
+            <Path fileType="*">/</Path>
+        </Files>
+        <RuntimeDependencies>
+            <Dependency>libxscrnsaver</Dependency>
+            <Dependency>gconf</Dependency>
+        </RuntimeDependencies>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>02-22-2023</Date>
+            <Version>0.0.25</Version>
+            <Comment>Add Discord version 0.0.25 released on February 13th 2023</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
+    </History>
+</PISI>
