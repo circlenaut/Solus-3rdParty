@@ -11,7 +11,7 @@
         <Summary>The web browser from Microsoft</Summary>
         <Description>Microsoft Edge is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier</Description>
         <License>Proprietary</License>
-        <Archive sha1sum="e9d496b10f2c32f9c742a3ce3e505808e433324f" type="binary">https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_106.0.1363.0-1_amd64.deb</Archive>
+        <Archive sha1sum="7d26ae4ecf7fce23729165177d772c6af47039f3" type="binary">https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-dev/microsoft-edge-dev_112.0.1698.0-1_amd64.deb</Archive>
         <BuildDependencies>
             <Dependency>libxscrnsaver</Dependency>
             <Dependency>gconf</Dependency>
@@ -32,6 +32,13 @@
     </Package>
 
     <History>
+        <Update release="7">
+            <Date>02-22-2023</Date>
+            <Version>112.0.1698.0</Version>
+            <Comment>Update Microsoft Edge Dev version 112.0.1698.0 released on February 22nd 2023</Comment>
+            <Name>Phillip Strefling</Name>
+            <Email>phillip@strefling.pro</Email>
+        </Update>
         <Update release="6">
             <Date>09-28-2022</Date>
             <Version>106.0.1363.0</Version>
